@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Login from "./pages/Login"
-// import OneBox from "./pages/OneBox"
+import OneBox from "./pages/OneBox"
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <BrowserRouter>
       
         <Routes>
-        {/* <Route path="/" element={<OneBox/>}/> */}
+        <Route path="/" element={<OneBox/>}/>
           <Route path="/login" element={<Login/>}/>
         </Routes>
       </BrowserRouter>
